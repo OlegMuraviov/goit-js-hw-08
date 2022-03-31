@@ -26,6 +26,7 @@
     "sass": "^1.49.10"
   },
   "dependencies": {
+    "@vimeo/player": "^2.16.4",
     "abab": "^2.0.5",
     "acorn": "^7.4.1",
     "acorn-globals": "^4.3.4",
