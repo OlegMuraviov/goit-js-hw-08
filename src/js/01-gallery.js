@@ -35,3 +35,4 @@ const lightbox = new SimpleLightbox('.gallery a', {
 // Change code below this line
 
 console.log(galleryItems);
+console.log('newpush');
