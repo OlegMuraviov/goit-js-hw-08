@@ -17,9 +17,8 @@ savedUserData();
 
 function onFormSubmit(event) {
   event.preventDefault();
-  if (!refs.email.value || !refs.message.value) {
-    alert('Вы ввели не все данные');
-    return;
+  if (!event.currentTarget.elements.email.value || !event.currentTarget.elements.message.value) {
+    return alert('Вы ввели не все данные');
   }
   console.log(`email: ${refs.email.value}, message: ${refs.message.value}`);
   event.currentTarget.reset();
